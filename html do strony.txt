@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="projekt.css">
+</head>
+
+  <header>
+    <nav>
+      <img src="logo.png" alt="">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">O nas</a></li>
+        <li><a href="#">Oferta</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="section0">
+    <h1>Witamy!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel urna vel augue euismod tincidunt.</p>
+    <a href="#">GET FREE NOW</a>
+    <img src="scroll.png" alt="">
+  </div>
+  <body>
+    <main>
+  <section class="section1">
+    <img src="maliny.jpg" alt="">
+    <div>
+      <h1>Fresh Life</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat, mauris nec bibendum gravida.</p>
+    </div>
+  </section>
+
+  <section class="section2">
+    <ul>
+      <li><a href="">Online Shopping</a><img src="koszyk.jpg" alt=""></li>
+      <li><a href="">Quality Product</a><img src="roslina.jpg" alt=""></li>
+      <li><a href="">Domestic & International Delivery</a><img src="planeta.jpg" alt=""></li>
+      <li><a href="">Well Organised</a><img src="marchewka.jpg" alt=""></li>
+    </ul>
+    <h1>Our Services</h1>
+    <img src="pomidor.png" alt="">
+  </section>
+
+  <section class="section3">
+    <h1>Gallery</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem vel justo gravida, et bibendum nulla
+      rhoncus.</p>
+    <div class="galeria">
+      <img src="brzoskwinia.jpg" alt="">
+      <span class="zdj">
+      <img src="borowki.jpg" alt="">
+      <img src="jezyna.jpg" alt="">
+      </span>
+      <img src="jogurt.jpg" alt="">
+      <span class="zdj">
+        <img src="kaki.jpg" alt="">
+      </span>
+    </div>
+    <a href="#"">VIEW MORE</a>
+  </section>
+
+  <section class="section4">
+    <div>
+      <h1>Subscribe To Us</h1>
+      <p>Zapisz się, aby otrzymywać najnowsze informacje.</p>
+      <input type="email" id="email" placeholder="Twój e-mail">
+      <input type="submit" id="subscribe" value="Zapisz">
+    </div>
+    <img src="borowkiforms.jpg" alt="">
+  </section>
+
+  <section class="section5">
+    <h1>Blog</h1>
+    <p>Przeczytaj nasze najnowsze wpisy i poznaj aktualności z naszej firmy.</p>
+    <div class="blog">
+  <div class="post">
+    <img src="kiwi22.jpg" alt="">
+    <div class="date">14 NOV</div>
+    <div class="title">Growing Food Awareness</div>
+  </div>
+
+  <div class="post">
+    <img src="pea-soup.jpg" alt="">
+    <div class="date">21 NOV</div>
+    <div class="title">Healthy Fruits Guide</div>
+  </div>
+
+  <div class="post">
+    <img src="raspberries1.jpg" alt="">
+    <div class="date">30 NOV</div>
+    <div class="title">The Power of Berries</div>
+  </div>
+</div>
+    <p class="button">VIEW MORE</p>
+  </section>
+  <section class="section6">
+    <h1>Contact</h1>
+    <p>Lorem ...</p>
+    <div>
+      <p>Ausketez Tran</p>
+      <p>Your email...</p>
+      <p>Your phone number...</p>
+      <p class="last">Your message...</p>
+    </div>
+    <div>
+      <p class="bold">ADDRESS</p>
+      <p>123 City name, Street, City, Country</p>
+      <p class="bold">>EMAIL</p>
+      <p>cache@dimain.com</p>
+      <p class="bold">PHONE</p>
+      <p>+012 345 6789</p>
+    </div>
+    </main>
+  </section>
+  <footer>
+    <p>&copy; 2015 Company. All right reserved.</p>
+    <img src="logo2.jpg" alt="">
+    <p>Made with <span>love</span> by Ausketeez</p>
+  </footer>
+</body>
+
+</html>
