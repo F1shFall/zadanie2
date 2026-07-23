@@ -1,0 +1,5 @@
+let lista = document.querySelector(".menu-btn");
+let ul = document.querySelector("ul");
+lista.addEventListener("click", () => {
+  ul.classList.toggle("active");
+});
