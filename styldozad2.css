@@ -67,15 +67,13 @@ nav > ul > li > a:hover {
 .div1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  align-self: flex-start;
   gap: 15px;
   width: 50%;
   margin: auto;
 }
 #p1 {
   margin: 0;
-  width: 100%;
+  max-width: 50%;
 }
 #a1 {
   background-color: rgba(240, 73, 8, 0.966);
@@ -137,13 +135,12 @@ nav > ul > li > a:hover {
   font-size: 5rem;
   z-index: 2;
 }
-.section2 > ul > li {
+.section2 ul li {
   background-color: aliceblue;
   justify-content: space-around;
   align-items: center;
   display: flex;
   margin: 20px;
-  left: 30vw;
 }
 .a2 {
   min-width: 250px;
@@ -151,7 +148,7 @@ nav > ul > li > a:hover {
   text-align: center;
   padding-left: 20px;
 }
-li > img {
+li img {
   width: 70px;
   padding-left: 20px;
   padding-right: 20px;
@@ -307,7 +304,7 @@ li > img {
   }
 }
 .section6 {
-  height: 100dvh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -428,6 +425,12 @@ footer {
     justify-content: end;
     height: auto;
   }
+  .div1 {
+    align-items: center;
+  }
+  #p1 {
+    max-width: 100%;
+  }
   #img2 {
     width: 100%;
     height: auto;
@@ -444,6 +447,17 @@ footer {
   }
   .section2 ul {
     padding: 0;
+  }
+  .section2 ul li {
+    height: auto;
+  }
+  .section2 ul li img {
+    padding: 0;
+    width: 80%;
+    transform: translateX(-20px);
+  }
+  .a2 {
+    transform: translateX(-20px);
   }
   #doimg {
     order: -1;
@@ -464,6 +478,11 @@ footer {
   }
   .section4 {
     text-align: center;
+  }
+  .section4 div {
+    width: 80%;
+    margin: auto;
+    text-align: left;
   }
   #dogaleri {
     flex-direction: column;
