@@ -426,6 +426,7 @@ footer {
   .Rsection1 {
     flex-direction: column;
     justify-content: end;
+    height: auto;
   }
   #img2 {
     width: 100%;
@@ -504,6 +505,9 @@ footer {
     height: auto;
     justify-content: center;
     align-items: center;
+  }
+  .section6 {
+    height: auto;
   }
   .inputy {
     width: 80%;
